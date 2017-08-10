@@ -1,0 +1,24 @@
+body {
+	background: #06beb6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */		
+	font-family: 'Lato', sans-serif;
+	height: 100vh;
+	font-size: 22px;
+	color: white;
+	background-attachment: fixed;
+}
+
+.box {
+	background: rgba(255, 255, 255, 0.4);
+	box-shadow: 0 1px 3px rgba(000, 000, 000, 0.1);
+	width: 70%;
+	margin: 40px auto;
+	border-radius: 5px;
+	padding:15px;
+}
+
+h1,
+h3 {
+	font-weight: 200;
+}
