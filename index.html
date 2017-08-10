@@ -7,13 +7,28 @@
 		<link href="style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" rel="stylesheet">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+		<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet"> -->
 	</head>
 	<body>
 		<div class="container">
 			<div class="box">
-				<h1>Peschiera Del Garda</h1>
-				<h3>Veneto, Italy</h3>
+				<div class="unit">
+					<p>C || F</p>
+				</div>
+				<div class="location">
+					<h1 id="town">Peschiera Del Garda</h1>
+					<h3><span id="region">Veneto</span>, <span id="country">Italy</span></h3>
+				</div>
+				<div class="temp">
+					<p id="real-temp">70º</p>
+					<p id="feels-temp">Feels like: 76º</p>
+				</div>
+				<div>
+					<i class="wi wi-day-thunderstorm"></i>
+				</div>
+				<div class="weather">
+					<p id="weather-type">Thunderstorms</p>
+				</div>
 			</div>
 		</div>
 	</body>
