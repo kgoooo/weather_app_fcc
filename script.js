@@ -26,7 +26,7 @@ var setLocation = (city, region, country, latLong) => (
 var darkSkyCall = (latLong) => {
 	$.ajax({
 		type: "GET",
-		url: `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/0fdfd2ed2a6de37b0d1a65e866c91b76/${latLong}`,
+		url: `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/fe2ac8fb54e8cf2079a8b30f35cf261b/${latLong}`,
 		datatype: "jsonp",
 		crossDomain: true,
 		success: getWeather
